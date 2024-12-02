@@ -9,7 +9,18 @@ def busqueda_lineal(lista, objetivo):
     return -1  # Retorna -1 si el objetivo no está en la lista
 # Busqueda Binaria(arreglo previamente ordenado)
 """ Se definen dos variables izq y der tomando el primer y ultimo indice del arreglo
-   
+   Se obtiene la mitad del arreglo que se (medio) promediando el valor de izq y der
+        Si
+             En caso de ser el elemento se regresa el indice del valor 
+        Si no
+             se compara sí el elemento a buscar es menor que nuestro valor(medio)
+                 Si
+                     valor de izq sera = medio + 1
+                     lo que nos hace irnos a buscar por el lado izquiedo
+                  si no
+                      valor der sera medio -1
+                      lo que nos hace irnos a buscar del lado derecho
+
                 
 """
 def busqueda_binaria(lista, objetivo):
