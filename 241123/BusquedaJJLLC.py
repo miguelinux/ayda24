@@ -20,6 +20,7 @@ def busqueda_lineal(lista, objetivo):
                   si no
                       valor der sera medio -1
                       lo que nos hace irnos a buscar del lado derecho
+
                 
 """
 def busqueda_binaria(lista, objetivo):
